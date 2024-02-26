@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<configuration>
+        <property>
+                <name>nPoints</name>
+                <value>150000</value>
+        </property>
+        <property>
+                <name>nCentroids</name>
+                <value>10</value>
+        </property>
+        <property>
+                <name>nReducers</name>
+                <value>1</value>
+        </property>
+        <property>
+                <name>nCoordinates</name>
+                <value>7</value>
+        </property>
+        <property>
+                <name>threshold</name>
+                <value>0.0001</value>
+        </property>
+        <property>
+                <name>maxIterations</name>
+                <value>20</value>
+        </property>
+        <property>
+                <name>maxExecutionTime</name>
+                <value>600</value>
+        </property>
+        <property>
+                <name>inMapperCombining</name>
+                <value>true</value>
+        </property>
+</configuration>
